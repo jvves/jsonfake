@@ -1,0 +1,134 @@
+{
+  "funcionarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "João Silva",
+      "setor": "TI",
+      "tipoFuncionario": "Efetivo",
+      "genero": "Masculino",
+      "cpf": "123.456.789-00",
+      "dataNascimento": "1990-03-15",
+      "estadoCivil": "Solteiro"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Maria Oliveira",
+      "setor": "Clínico",
+      "tipoFuncionario": "Temporário",
+      "genero": "Feminino",
+      "cpf": "987.654.321-00",
+      "dataNascimento": "1985-07-22",
+      "estadoCivil": "Casada"
+    },
+    {
+      "id": 3,
+      "nomeCompleto": "Carlos Souza",
+      "setor": "Geral",
+      "tipoFuncionario": "Efetivo",
+      "genero": "Masculino",
+      "cpf": "111.222.333-44",
+      "dataNascimento": "1992-11-10",
+      "estadoCivil": "Divorciado"
+    },
+    {
+      "id": 4,
+      "nomeCompleto": "Ana Costa",
+      "setor": "RH",
+      "tipoFuncionario": "Estagiário",
+      "genero": "Feminino",
+      "cpf": "555.666.777-88",
+      "dataNascimento": "1998-02-28",
+      "estadoCivil": "Solteira"
+    },
+    {
+      "id": 5,
+      "nomeCompleto": "Pedro Martins",
+      "setor": "Clínico",
+      "tipoFuncionario": "Efetivo",
+      "genero": "Masculino",
+      "cpf": "444.555.666-99",
+      "dataNascimento": "1987-05-05",
+      "estadoCivil": "Casado"
+    }
+  ],
+  "tiposFuncionarios": [
+    {
+      "id": 1,
+      "tipo": "Médico",
+      "descricao": "Profissional da saúde responsável pelo diagnóstico e tratamento de doenças.",
+      "prontuario": true,
+      "cadastroPacientes": true
+    },
+    {
+      "id": 2,
+      "tipo": "Enfermeiro",
+      "descricao": "Profissional de saúde responsável por prestar cuidados médicos e auxiliar os médicos.",
+      "prontuario": true,
+      "cadastroPacientes": false
+    },
+    {
+      "id": 3,
+      "tipo": "Recepcionista",
+      "descricao": "Responsável pelo atendimento inicial ao paciente e agendamento de consultas.",
+      "prontuario": false,
+      "cadastroPacientes": true
+    },
+    {
+      "id": 4,
+      "tipo": "Administrador",
+      "descricao": "Responsável pela gestão e organização da clínica, cuidando da parte administrativa.",
+      "prontuario": false,
+      "cadastroPacientes": false
+    }
+  ],
+  "medicamentos": [
+    {
+      "id": 1,
+      "nomeMedicamento": "Paracetamol",
+      "quantidade": 100,
+      "dosagem": "500mg",
+      "formaFarmaceutica": "Comprimido",
+      "categoria": "Analgésicos",
+      "tarja": "Vermelha",
+      "lote": "L001"
+    },
+    {
+      "id": 2,
+      "nomeMedicamento": "Ibuprofeno",
+      "quantidade": 150,
+      "dosagem": "200mg",
+      "formaFarmaceutica": "Cápsula",
+      "categoria": "Anti-inflamatórios",
+      "tarja": "Vermelha",
+      "lote": "L002"
+    }
+  ],
+  "lotes": [
+    {
+      "id": 1,
+      "quantidadeEstoque": 500,
+      "fornecedor": "Farmacêutica A",
+      "dataFabricacao": "2024-01-10",
+      "dataValidade": "2025-01-10"
+    },
+    {
+      "id": 2,
+      "quantidadeEstoque": 600,
+      "fornecedor": "Farmacêutica B",
+      "dataFabricacao": "2024-03-15",
+      "dataValidade": "2025-03-15"
+    }
+  ],
+  "categoriaMedicamentos": [
+    {
+      "id": 1,
+      "nomeCategoria": "Analgésicos",
+      "descricao": "Medicamentos usados para aliviar dores leves e moderadas."
+    },
+    {
+      "id": 2,
+      "nomeCategoria": "Anti-inflamatórios",
+      "descricao": "Medicamentos que reduzem a inflamação e podem aliviar dor e febre."
+    }
+  ]
+}
