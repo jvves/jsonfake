@@ -4,7 +4,7 @@
       "id": 1,
       "nomeCompleto": "João Silva",
       "setor": "TI",
-      "tipoFuncionario": "Efetivo",
+      "tipoFuncionario": "Estagiário",
       "genero": "Masculino",
       "cpf": "123.456.789-00",
       "dataNascimento": "1990-03-15",
@@ -14,7 +14,7 @@
       "id": 2,
       "nomeCompleto": "Maria Oliveira",
       "setor": "Clínico",
-      "tipoFuncionario": "Temporário",
+      "tipoFuncionario": "Médica",
       "genero": "Feminino",
       "cpf": "987.654.321-00",
       "dataNascimento": "1985-07-22",
@@ -24,7 +24,7 @@
       "id": 3,
       "nomeCompleto": "Carlos Souza",
       "setor": "Geral",
-      "tipoFuncionario": "Efetivo",
+      "tipoFuncionario": "Manutenção",
       "genero": "Masculino",
       "cpf": "111.222.333-44",
       "dataNascimento": "1992-11-10",
@@ -34,7 +34,7 @@
       "id": 4,
       "nomeCompleto": "Ana Costa",
       "setor": "RH",
-      "tipoFuncionario": "Estagiário",
+      "tipoFuncionario": "Administrativo",
       "genero": "Feminino",
       "cpf": "555.666.777-88",
       "dataNascimento": "1998-02-28",
@@ -44,7 +44,7 @@
       "id": 5,
       "nomeCompleto": "Pedro Martins",
       "setor": "Clínico",
-      "tipoFuncionario": "Efetivo",
+      "tipoFuncionario": "Enfermeiro",
       "genero": "Masculino",
       "cpf": "444.555.666-99",
       "dataNascimento": "1987-05-05",
@@ -54,14 +54,14 @@
   "tiposFuncionarios": [
     {
       "id": 1,
-      "tipo": "Médico",
+      "tipo": "Médico/a",
       "descricao": "Profissional da saúde responsável pelo diagnóstico e tratamento de doenças.",
       "prontuario": true,
       "cadastroPacientes": true
     },
     {
       "id": 2,
-      "tipo": "Enfermeiro",
+      "tipo": "Enfermeiro/a",
       "descricao": "Profissional de saúde responsável por prestar cuidados médicos e auxiliar os médicos.",
       "prontuario": true,
       "cadastroPacientes": false
@@ -75,7 +75,7 @@
     },
     {
       "id": 4,
-      "tipo": "Administrador",
+      "tipo": "Administrador/ra",
       "descricao": "Responsável pela gestão e organização da clínica, cuidando da parte administrativa.",
       "prontuario": false,
       "cadastroPacientes": false
