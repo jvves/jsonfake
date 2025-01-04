@@ -3,8 +3,8 @@
     {
       "id": 1,
       "nomeCompleto": "João Silva",
-      "setor": "TI",
-      "tipoFuncionario": "Estagiário",
+      "setor": "Clínico",
+      "tipoFuncionario": "Médico",
       "genero": "Masculino",
       "cpf": "123.456.789-00",
       "dataNascimento": "1990-03-15",
@@ -24,7 +24,7 @@
       "id": 3,
       "nomeCompleto": "Carlos Souza",
       "setor": "Geral",
-      "tipoFuncionario": "Manutenção",
+      "tipoFuncionario": "Recepcionista",
       "genero": "Masculino",
       "cpf": "111.222.333-44",
       "dataNascimento": "1992-11-10",
@@ -57,28 +57,32 @@
       "tipo": "Médico/a",
       "descricao": "Profissional da saúde responsável pelo diagnóstico e tratamento de doenças.",
       "prontuario": true,
-      "cadastroPacientes": true
+      "cadastroPacientes": true,
+       "cadastroFunfionarios":false
     },
     {
       "id": 2,
       "tipo": "Enfermeiro/a",
       "descricao": "Profissional de saúde responsável por prestar cuidados médicos e auxiliar os médicos.",
       "prontuario": true,
-      "cadastroPacientes": false
+      "cadastroPacientes": false,
+      "cadastroFunfionarios":false
     },
     {
       "id": 3,
       "tipo": "Recepcionista",
       "descricao": "Responsável pelo atendimento inicial ao paciente e agendamento de consultas.",
       "prontuario": false,
-      "cadastroPacientes": true
+      "cadastroPacientes": true,
+       "cadastroFunfionarios":false
     },
     {
       "id": 4,
       "tipo": "Administrador/ra",
       "descricao": "Responsável pela gestão e organização da clínica, cuidando da parte administrativa.",
       "prontuario": false,
-      "cadastroPacientes": false
+      "cadastroPacientes": false,
+       "cadastroFunfionarios":true
     }
   ],
   "medicamentos": [
