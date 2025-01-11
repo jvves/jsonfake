@@ -80,8 +80,8 @@
       "id": 4,
       "tipo": "Administrador/ra",
       "descricao": "Responsável pela gestão e organização da clínica, cuidando da parte administrativa.",
-      "prontuario": false,
-      "cadastroPacientes": false,
+      "prontuario": true,
+      "cadastroPacientes": true,
        "cadastroFuncionarios":true
     }
   ],
