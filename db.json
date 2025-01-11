@@ -66,7 +66,7 @@
       "descricao": "Profissional de saúde responsável por prestar cuidados médicos e auxiliar os médicos.",
       "prontuario": true,
       "cadastroPacientes": false,
-      "cadastroFunfionarios":false
+      "cadastroFuncionarios":false
     },
     {
       "id": 3,
@@ -74,7 +74,7 @@
       "descricao": "Responsável pelo atendimento inicial ao paciente e agendamento de consultas.",
       "prontuario": false,
       "cadastroPacientes": true,
-       "cadastroFunfionarios":false
+       "cadastroFuncionarios":false
     },
     {
       "id": 4,
@@ -82,7 +82,7 @@
       "descricao": "Responsável pela gestão e organização da clínica, cuidando da parte administrativa.",
       "prontuario": false,
       "cadastroPacientes": false,
-       "cadastroFunfionarios":true
+       "cadastroFuncionarios":true
     }
   ],
   "medicamentos": [
