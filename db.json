@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nomeCompleto": "João Silva",
-      "setor": "Clínico",
+      "setor": "Clínico Geral",
       "tipoFuncionario": "Médico",
       "genero": "Masculino",
       "cpf": "123.456.789-00",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "nomeCompleto": "Maria Oliveira",
-      "setor": "Clínico",
+      "setor": "Clínico Geral",
       "tipoFuncionario": "Médico",
       "genero": "Feminino",
       "cpf": "987.654.321-00",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "nomeCompleto": "Carlos Souza",
-      "setor": "Geral",
+      "setor": "Serviços Gerais",
       "tipoFuncionario": "Recepcionista",
       "genero": "Masculino",
       "cpf": "111.222.333-44",
@@ -33,8 +33,8 @@
     {
       "id": 4,
       "nomeCompleto": "Ana Costa",
-      "setor": "RH",
-      "tipoFuncionario": "Administrador",
+      "setor": "Recursos Humanos",
+      "tipoFuncionario": "Administrativo",
       "genero": "Feminino",
       "cpf": "555.666.777-88",
       "dataNascimento": "1998-02-28",
@@ -43,7 +43,7 @@
     {
       "id": 5,
       "nomeCompleto": "Pedro Martins",
-      "setor": "Clínico",
+      "setor": "Clínico Geral",
       "tipoFuncionario": "Enfermeiro",
       "genero": "Masculino",
       "cpf": "444.555.666-99",
